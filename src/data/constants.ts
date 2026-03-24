@@ -1,12 +1,11 @@
 export const towns = [
   { name: 'Crawfordville', slug: 'crawfordville', businesses: 0 },
-  { name: 'St. Marks', slug: 'st-marks', businesses: 0 },
-  { name: 'Sopchoppy', slug: 'sopchoppy', businesses: 0 },
   { name: 'Panacea', slug: 'panacea', businesses: 0 },
-  { name: 'Medart', slug: 'medart', businesses: 0 },
+  { name: 'St Marks', slug: 'st-marks', businesses: 0 },
+  { name: 'Sopchoppy', slug: 'sopchoppy', businesses: 0 },
   { name: 'Shell Point', slug: 'shell-point', businesses: 0 },
+  { name: 'Medart', slug: 'medart', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
